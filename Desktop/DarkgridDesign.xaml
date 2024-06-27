@@ -1,0 +1,17 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--  External resources  -->
+
+    <!--  Color declarations  -->
+    <Color
+        x:Key="BlackColor">
+        #000000
+    </Color>
+
+    <!--  Brush declarations  -->
+    <SolidColorBrush
+        x:Key="BlackColorBrush"
+        Color="{StaticResource BlackColor}" />
+</ResourceDictionary>
