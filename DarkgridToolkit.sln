@@ -13,6 +13,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C65221A7-66C8-4B63-B1E8-6D1089EB1BC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desktop", "Desktop", "{BE9E246F-8CE8-4038-8783-459612543796}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DarkgridToolkit.Desktop.Tests", "Tests\Desktop\DarkgridToolkit.Desktop.Tests.csproj", "{4AB23C9B-73AE-4CC1-8ECE-A9CE39E76C19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +33,17 @@ Global
 		{D8E0B586-0FF0-4D73-82C3-9699C91CBFA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8E0B586-0FF0-4D73-82C3-9699C91CBFA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8E0B586-0FF0-4D73-82C3-9699C91CBFA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AB23C9B-73AE-4CC1-8ECE-A9CE39E76C19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AB23C9B-73AE-4CC1-8ECE-A9CE39E76C19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AB23C9B-73AE-4CC1-8ECE-A9CE39E76C19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AB23C9B-73AE-4CC1-8ECE-A9CE39E76C19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE9E246F-8CE8-4038-8783-459612543796} = {C65221A7-66C8-4B63-B1E8-6D1089EB1BC4}
+		{4AB23C9B-73AE-4CC1-8ECE-A9CE39E76C19} = {BE9E246F-8CE8-4038-8783-459612543796}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A50EA039-4905-4D8E-8953-47F29EE7981E}
