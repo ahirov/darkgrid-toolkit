@@ -1,0 +1,33 @@
+# Test files configuration
+
+[*Tests.cs]
+
+#### Naming styles ####
+
+# Naming rules
+
+# Define the 'public_methods_underscored' naming rule
+dotnet_naming_rule.public_methods_underscored.severity = error
+dotnet_naming_rule.public_methods_underscored.symbols = public_methods
+dotnet_naming_rule.public_methods_underscored.style = should_underscored
+
+# Symbol specifications
+
+# Define the 'public_methods' symbol group:
+dotnet_naming_symbols.public_methods.applicable_kinds = method
+dotnet_naming_symbols.public_methods.applicable_accessibilities = public
+dotnet_naming_symbols.public_methods.required_modifiers =
+
+# Naming styles
+
+# Define the 'should_underscored' naming style
+dotnet_naming_style.should_underscored.required_prefix = should_
+dotnet_naming_style.should_underscored.required_suffix =
+dotnet_naming_style.should_underscored.word_separator = _
+dotnet_naming_style.should_underscored.capitalization = all_lower
+
+# SA1300: Element should begin with upper-case letter
+dotnet_diagnostic.SA1300.severity = none
+
+# CA1707: Identifiers should not contain underscores
+dotnet_diagnostic.CA1707.severity = none
